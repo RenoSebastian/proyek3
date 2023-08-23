@@ -6,6 +6,8 @@
             overflow: hidden;
             grid-template-columns: repeat(4,1fr);
             grid-template-rows: repeat(6,1fr);
+            grid-column-gap: 0ch;
+            grid-row-gap: 0ch;
         }
         .grid-container div{
             display: grid;
