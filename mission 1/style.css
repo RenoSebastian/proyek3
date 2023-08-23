@@ -1,0 +1,74 @@
+
+        .grid-container{
+            height: 100vh;
+            width: 100%;
+            display: grid;
+            overflow: hidden;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: repeat(6,1fr);
+        }
+        .grid-container div{
+            display: grid;
+            align-items: center;
+            justify-items: center;
+        }
+        .kuning{
+            grid-area: 1/1/2/2;
+            background-color: yellow;
+        }
+        .hijau{
+            grid-area: 2/2/3/1;
+            background-color: green;
+        }
+        .merah{
+            grid-area: 3/2/4/1;
+            background-color: red;
+        }
+        .biru-tua{
+            grid-area: 4/2/7/1;
+            background-color: darkblue;
+        }
+        .Hitam{
+            grid-area: 1/2/2/5;
+            background-color: black;
+        }
+        .coklat{
+            grid-area: 2/2/2/2;
+            background-color: rgb(97, 29, 0);
+        }
+        .Putih{
+            grid-area: 3/2/4/3;
+            background-color: white;
+        }
+        .pink{
+            grid-area: 2/4/4/3;
+            background-color: pink;
+        }
+        .abu{
+            grid-area: 4/2/6/4;
+            background-color: grey;
+        }
+        .orange{
+            grid-area: 6/2/7/4;
+            background-color: orange;
+        }
+        .biru{
+            grid-area: 2/4/3/4;
+            background-color: blue;
+        }
+        .ungu{
+            grid-area: 3/4/7/6;
+            background-color: purple;
+        }
+        .hitam{
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        .putih{
+            font-size: 30px;
+            color: white;
+            font-weight: bold;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
