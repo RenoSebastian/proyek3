@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Mission 2.css">
+  <title>iCashier</title>
+</head>
+<body>
+  <div class="cashier">
+    <h1>iCashier</h1>
+    <div class="items">
+        <div id="item1" class="item" data-img="susuKotak.jpeg">
+            <img src="susuKotak.jpeg" alt="Item 1">
+            <h3>Susu Kotak</h3>
+            <p class="price">Rp. 25.000</p>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+            </div>
+            <button class="add-to-cart">Tambahkan ke Keranjang</button>
+        </div>
+        
+
+        <div id="item2" class="item" data-img="Roti.jpeg">
+            <img src="Roti.jpeg" alt="Item 2">
+            <h3>Roti</h3>
+            <p class="price">Rp. 10.000</p>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+            </div>
+            <button class="add-to-cart">Tambahkan ke Keranjang</button>
+        </div>
+        
+
+      <!-- Tambahkan item lain di sini -->
+        <div id="item3" class="item" data-img="AirMineral.jpeg">
+            <img src="AirMineral.jpeg" alt="Item 3">
+            <h3>Air Mineral</h3>
+            <p class="price">Rp. 5.000</p>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+            </div>
+            <button class="add-to-cart">Tambahkan ke Keranjang</button>
+        </div>
+
+      <!-- Tambahkan item lain di sini -->
+        <div id="item4" class="item" data-img="kopi,jpg">
+            <img src="kopi.jpg" alt="Item 4">
+            <h3>Kopi</h3>
+            <p class="price">Rp. 25.000</p>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+            </div>
+            <button class="add-to-cart">Tambahkan ke Keranjang</button>
+        </div>
+        
+        <div id="item5" class="item" data-img="SparklingWater.jpeg">
+            <img src="SparklingWater.jpeg" alt="Item 5">
+            <h3>Sparkling Water</h3>
+            <p class="price">Rp. 15.000</p>
+            <div class="quantity">
+                <button class="decrease">-</button>
+                <span class="count">0</span>
+                <button class="increase">+</button>
+            </div>
+            <button class="add-to-cart">Tambahkan ke Keranjang</button>
+        </div>
+
+       <!-- Tambahkan item lain di sini -->
+       <div id="item6" class="item" data-img="keripik.webp">
+        <img src="keripik.webp" alt="Item 6">
+        <h3>Keripik</h3>
+        <p class="price">Rp. 20.000</p>
+        <div class="quantity">
+            <button class="decrease">-</button>
+            <span class="count">0</span>
+            <button class="increase">+</button>
+        </div>
+        <button class="add-to-cart">Tambahkan ke Keranjang</button>
+    </div>
+
+      <!-- ... -->
+    </div>
+  </div>
+
+  <div class="summary">
+    <div class="cart-items"></div>
+    <p class="subtotal">Subtotal: <span id="cartSubtotal">Rp. 0</span></p>
+    <p class="tax">Pajak (11%): <span id="cartTax">Rp. 0</span></p>
+    <p class="total">Total Pembelian: <span id="cartTotal">Rp. 0</span></p>
+  </div>
+</div>
+  <script src="main.js"></script>
+</body>
+</html>
